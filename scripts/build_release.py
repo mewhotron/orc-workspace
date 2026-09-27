@@ -43,7 +43,8 @@ def files(root=ROOT):
         base = Path(directory)
         for name in list(dirs):
             path = base / name
-            if name in EXCLUDE_DIRS:
+            template_directory = path.relative_to(root).as_posix() == "templates/local"
+            if name in EXCLUDE_DIRS and not template_directory:
                 dirs.remove(name)
                 continue
             if path.is_symlink() or (hasattr(path, "is_junction") and path.is_junction()):
@@ -53,6 +54,11 @@ def files(root=ROOT):
         for name in sorted(names):
             path = base / name
             relative = path.relative_to(root).as_posix()
+            if relative.startswith("templates/local/") and relative not in {
+                "templates/local/activity.md", "templates/local/decisions.md",
+                "templates/local/preferences.md", "templates/local/projects.md"
+            }:
+                raise ValueError("unreviewed owner template: " + relative)
             if relative == "release-manifest.json" or path.suffix == ".pyc":
                 continue
             if path.is_symlink():

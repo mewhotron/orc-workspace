@@ -11,6 +11,7 @@ Version 0.1.0 was prepared on Windows on 27 September 2026.
 - Research helper tests: 17 passed. Media tests: 75 passed with zero skips using existing FFmpeg/FFprobe. Media fixtures are synthetic; no original media is included.
 - An independent instruction review exercised four fictional scenarios: research prompt injection, missing coaching evidence, a late mismatched result after cancellation, and document-command injection. The reviewer returned bounded decisions. These are mock decisions, not live specialist consultations or proof of injection immunity.
 - Release checks inspect allowed file paths, credentials resembling known token formats, locally supplied private identifiers, whitespace, starter SQLite integrity and the file hash manifest.
+- Two release-boundary tests verify that all four blank owner-record templates are included while private owner state and unreviewed templates are excluded.
 
 ## What remains unverified
 

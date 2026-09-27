@@ -1,6 +1,8 @@
 # Owner state and derived/private content must remain outside source control.
 local/
 **/local/
+!templates/local/
+!templates/local/*.md
 .env
 .env.*
 !.env.example

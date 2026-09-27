@@ -1,0 +1,3 @@
+In this fictional training log, a rider records a short commute on Monday. The record has no power data and does not establish fitness or recovery.
+
+Before suggesting a new workout, ask which rides were transportation, what time is available, and whether any clinician gave activity instructions. Missing heart rate values are unknown, not zero.

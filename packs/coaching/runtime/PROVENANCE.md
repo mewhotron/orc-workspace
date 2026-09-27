@@ -1,0 +1,7 @@
+# Offline activity utility provenance and limits
+
+Source: selected deterministic modules from the user's The Plan project at 2026-09-27. The copied local modules and nine synthetic test modules retain source logic. Package changes: the activity database default moved from `data/processed/activities.sqlite3` to workspace `local/activities.sqlite3`, and `run.py` supplies a stable workspace-root CLI with clear optional FIT SDK failure. No original project code or private activity data was changed or copied.
+
+The package includes `src/ingestion`, `src/models`, `src/linkage`, `src/projection`, `src/history`, `src/analytics`, `src/training_load`, `src/reports`, minimal `src/utils` and the two entry-point scripts. FIT decoding uses the external `garmin-fit-sdk` package; it is **not** bundled. Its optional version range follows the source project's declared dependency (`>=21.214,<22`). Named timezones need IANA zone data on Windows. The source project's Python baseline is `>=3.14`.
+
+The tests are synthetic and local. They verify file/ZIP decoding, observation import, duplicate/conflict handling, history/projection, analytics, load and report behavior. They do not prove support for every Garmin export variant or every FIT field. The original live Garmin account integration, activity dashboard, Coach API/model interpretation, Discord adapter and private thresholds/profiles are absent. No readiness or training prescription follows from the factual report.

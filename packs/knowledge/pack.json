@@ -1,0 +1,9 @@
+{
+  "id": "knowledge",
+  "name": "Knowledge",
+  "version": "0.1.0",
+  "roles": [
+    {"id": "knowledge_curator", "title": "Knowledge Curator", "instructions": "roles/knowledge-curator.md"}
+  ],
+  "requires": []
+}

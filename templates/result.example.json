@@ -1,0 +1,11 @@
+{
+  "assignment_id": "demo-001",
+  "attempt_id": "demo-001-01",
+  "worker": "example-worker",
+  "status": "completed",
+  "findings": ["Synthetic example only; this file reports no real execution."],
+  "artifacts": ["local/example-result.md"],
+  "checks": [{"name": "readback", "passed": true, "evidence": "Synthetic demonstration; independently inspect a real artifact."}],
+  "side_effects": ["write:local/example-result.md"],
+  "limitations": ["Example data, not actual test evidence"]
+}

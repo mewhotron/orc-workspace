@@ -1,0 +1,9 @@
+{
+  "id": "media",
+  "name": "Media Lab",
+  "version": "0.1.0",
+  "roles": [
+    {"id": "media-lab", "title": "Media Lab Agent", "instructions": "roles/media-lab.md"}
+  ],
+  "requires": []
+}

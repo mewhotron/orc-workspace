@@ -1,0 +1,716 @@
+{
+  "schema_version": 1,
+  "version": "0.1.0",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "f64755f1982702b6c8624f54375c34e31f550e9c81b589a3cbfd58efe7022e6c",
+      "pack": "core"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "bc9f5f04c9930776570c2e4c17beb0a88fcb8645187dbc560422c29e4fec08d2",
+      "pack": "core"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "1faa3d21fdaf584013f4cca051d805686dae9620605af5ad6cbd60061b420ed9",
+      "pack": "core"
+    },
+    {
+      "path": "BOOTSTRAP.md",
+      "sha256": "ac518f512545f2a1a0ebbed1adf181017721d7b543f00fc4b5dc48ac46d3b8a6",
+      "pack": "core"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "c6cb0208d5870790d30ba693604de7b161a12b32baf521bf8800dcd75cd928a0",
+      "pack": "core"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "bf37797a2080ecbccea543668965b2157e1c2ac7266ab88fa76c4ad33ffd62e6",
+      "pack": "core"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "121c6d9c021efdf55a02c59f78beea74a0bb04939d86b4ff6ebd8fc75b057ac0",
+      "pack": "core"
+    },
+    {
+      "path": "README.md",
+      "sha256": "810e0e326763a459d00ba2555e6786b5fa9d79921b3bf51eee72725e670c7ddc",
+      "pack": "core"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "b9f8143c73eee72be4caaa8299a61389a78d48a8a284aba63b579e9acfb5526f",
+      "pack": "core"
+    },
+    {
+      "path": "adapters/claude/README.md",
+      "sha256": "1ed5bd2d514e304b2ef298994c36c927f95375dc3c9828fc65c9877143cae460",
+      "pack": "core"
+    },
+    {
+      "path": "adapters/claude/overlay/.claude/agents/cycling-trainer.md",
+      "sha256": "bfed2adf68b1b208f33c08a06c94562e4a83cdd95f3e57a1b8ecddc9a81efca0",
+      "pack": "coaching"
+    },
+    {
+      "path": "adapters/claude/overlay/.claude/agents/knowledge-curator.md",
+      "sha256": "03aee4df9576de73df29a3ff220daead634c18e555d27149c91eab3a53b1fc56",
+      "pack": "knowledge"
+    },
+    {
+      "path": "adapters/claude/overlay/.claude/agents/lead-coach.md",
+      "sha256": "9fab7105927dbd1c7139853d8416e9c57dbfb57680a18290c4ad2f2d2a13e951",
+      "pack": "coaching"
+    },
+    {
+      "path": "adapters/claude/overlay/.claude/agents/media-lab.md",
+      "sha256": "eed8677a7a7118efe4c377502f0b88ddc6dbce1acc8ec3f958ae73bffe751a84",
+      "pack": "media"
+    },
+    {
+      "path": "adapters/claude/overlay/.claude/agents/nutritionist-specialist.md",
+      "sha256": "1d3a0ed2c4e3811fa56115b37e8441d1980cf37980ce3f54a93c3f53fae3cf76",
+      "pack": "coaching"
+    },
+    {
+      "path": "adapters/claude/overlay/.claude/agents/search-crawler.md",
+      "sha256": "984d9efbdaf4095a95756b404ab31e9c8e9c298fd8e1b130c15ef8434d70c1ac",
+      "pack": "research"
+    },
+    {
+      "path": "adapters/claude/overlay/.claude/agents/strength-conditioning-trainer.md",
+      "sha256": "24043b1cc0f23f970829f154c4ae068342edbdcbc88381552fca086dd1bb7918",
+      "pack": "coaching"
+    },
+    {
+      "path": "adapters/claude/overlay/CLAUDE.md",
+      "sha256": "dcbd4c99edb58917d5223dfcd050a84f76277a9fc879cf409efdfc2d554e2d08",
+      "pack": "core"
+    },
+    {
+      "path": "adapters/codex/README.md",
+      "sha256": "d80c5389ceb4b23c0c8a49a3f01f4f35b778c33c25475b97503e339adc48375c",
+      "pack": "core"
+    },
+    {
+      "path": "adapters/codex/overlay/.codex/agents/cycling_trainer.toml",
+      "sha256": "d00618c0b1e6317e9f59a85df34fb986ff6bb952c88420fb8ee25a2db6c95402",
+      "pack": "coaching"
+    },
+    {
+      "path": "adapters/codex/overlay/.codex/agents/knowledge_curator.toml",
+      "sha256": "553c3e60a4656f0ac22286fffa7188f41a46e44ab0ea9c5e6020224b818b3898",
+      "pack": "knowledge"
+    },
+    {
+      "path": "adapters/codex/overlay/.codex/agents/lead_coach.toml",
+      "sha256": "54265bec4b28568713aed3db2f718a462c1ae69847af1f8b581f6d56d07dc3ed",
+      "pack": "coaching"
+    },
+    {
+      "path": "adapters/codex/overlay/.codex/agents/media-lab.toml",
+      "sha256": "e19576020616d7f4c0d981863621c5456d5b12620018007a80f6f896e5ddee92",
+      "pack": "media"
+    },
+    {
+      "path": "adapters/codex/overlay/.codex/agents/nutritionist_specialist.toml",
+      "sha256": "4c9afd408923ce5af984707e9223d009a38a1c83716d49506659de870ee6947c",
+      "pack": "coaching"
+    },
+    {
+      "path": "adapters/codex/overlay/.codex/agents/search-crawler.toml",
+      "sha256": "4d5afd37e5c789e4a8db40405d4c8f45641dd2eebeb1d99d643050bf92d5db28",
+      "pack": "research"
+    },
+    {
+      "path": "adapters/codex/overlay/.codex/agents/strength_conditioning_trainer.toml",
+      "sha256": "b4207ce921205ded261d3629baffaef4f14db53bdd487694aa78783b5ef3ac4a",
+      "pack": "coaching"
+    },
+    {
+      "path": "adapters/gemini/README.md",
+      "sha256": "339f8584247ca6974a1c0554e08b5d5caeb0bab32a35ced82cd485cabaec6820",
+      "pack": "core"
+    },
+    {
+      "path": "adapters/gemini/overlay/GEMINI.md",
+      "sha256": "629caa035ab97eeedc093797024e71404d4e3b2c94ec27074404183df9f603b6",
+      "pack": "core"
+    },
+    {
+      "path": "adapters/generic/README.md",
+      "sha256": "1e28108b57c56c5076ec0b0ef98fb0a27095a8806e6c0af57754d0030dcec701",
+      "pack": "core"
+    },
+    {
+      "path": "core/DELEGATION.md",
+      "sha256": "9c3193fc701397dc8973288a1bbb77b2dc417cab72ebb8d1b7b7ca5323937e34",
+      "pack": "core"
+    },
+    {
+      "path": "core/MODEL_ROUTING.md",
+      "sha256": "51aa350e20bcbc8422f1020d6413a8c27fe950df5126d7360d7a6e4d10970416",
+      "pack": "core"
+    },
+    {
+      "path": "core/ORCHESTRATOR.md",
+      "sha256": "0b921544d9dc55524b818120833fa4ebd79df25c3d7a15669a9118161bd50304",
+      "pack": "core"
+    },
+    {
+      "path": "docs/architecture.md",
+      "sha256": "099d036cd7dbf0782d6bb2dd7582c2e63ebdfa758e9c766d4a86d41772f980ee",
+      "pack": "core"
+    },
+    {
+      "path": "docs/capabilities.md",
+      "sha256": "67180b79c9373c5d6dd2ad18389e456d9b62d8c3104c85bb93336f6f2865e0ca",
+      "pack": "core"
+    },
+    {
+      "path": "docs/compatibility.md",
+      "sha256": "ae6c570e8de488d98352957b2f564db33fb5eb1fa023d7671a831ba0d14b01e4",
+      "pack": "core"
+    },
+    {
+      "path": "docs/extending.md",
+      "sha256": "f679440152a43aee4d6b3193cc99c08f3faee5fc7712cc4c1979fecda83e2c95",
+      "pack": "core"
+    },
+    {
+      "path": "docs/privacy.md",
+      "sha256": "edb1676cde488e3eed1e0627363a0f33e416baa034e5038280fbe0bd0e5d4147",
+      "pack": "core"
+    },
+    {
+      "path": "docs/troubleshooting.md",
+      "sha256": "92f5629f9d5a0a565bb9fddbdb207be5debe30ed9a323c6896caefd0feb9a694",
+      "pack": "core"
+    },
+    {
+      "path": "docs/verification.md",
+      "sha256": "504ed1fa354b5e30e6c64b20a59706b54f41db6e0937fd216afe1d9582a15771",
+      "pack": "core"
+    },
+    {
+      "path": "integrations/README.md",
+      "sha256": "43f1d3f9262deab44f89955ea9e98fd67b62da868493768eb6528afa2221a03b",
+      "pack": "core"
+    },
+    {
+      "path": "knowledge/CONTENT_NOTICE.md",
+      "sha256": "703bc991bba6c4588d57dea5f47aaf34d648d38e2e9d14acc81505e8e68684ba",
+      "pack": "knowledge"
+    },
+    {
+      "path": "knowledge/build_starter.py",
+      "sha256": "e5a522f9a9e173fa17e9b4831d3ad2749c70ebb023a23004455748a99d97e01c",
+      "pack": "knowledge"
+    },
+    {
+      "path": "knowledge/examples/commute-recovery.txt",
+      "sha256": "41bd86b3177fb2c8bdb2d0a818b68f0d8122bf9350712ed65f05d1025abc57aa",
+      "pack": "knowledge"
+    },
+    {
+      "path": "knowledge/examples/strength-schedule.txt",
+      "sha256": "b4bda387833a8dde5d9705837cce2fdde1cabdf56cefb1e7c8105fe94b61a3c2",
+      "pack": "knowledge"
+    },
+    {
+      "path": "knowledge/orc_knowledge.py",
+      "sha256": "49f4b3525603cad5a7dd4e0d5711d3be373ea7dcd6b370aa490f1915a8d0f6b4",
+      "pack": "knowledge"
+    },
+    {
+      "path": "knowledge/starter.sqlite3",
+      "sha256": "28bf291cbc6b71bbdb52f517febc39da7e55437bbeedcb6935d2338c5fbdf25e",
+      "pack": "knowledge"
+    },
+    {
+      "path": "packs/coaching/README.md",
+      "sha256": "2561c7dcda18e8fb8334c5c3de0c3b1d24a694e20065b696db5b0e881bd2ad17",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/pack.json",
+      "sha256": "33c5a9f14736029b062177e75dd667ac8207de8aef9298ef3a2bbd4f728a8fa5",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/roles/cycling-trainer.md",
+      "sha256": "1db2a0fdf22f530ecaebb0ca6df7fe7dc90b18f7c4cbfd0635244da96a0ad8e8",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/roles/lead-coach.md",
+      "sha256": "8035e46bd3d5142070a94f29f635ade61f33b66e15a4d3cc1c4471e4b1ce2524",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/roles/nutritionist-specialist.md",
+      "sha256": "780493a1a2eccf31f6c56db5235f6c5b439131536d3e517ac37d9be9e877031f",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/roles/strength-conditioning-trainer.md",
+      "sha256": "9d2bebe2bd886c6b022d29a7dffab012f347afc990bfde3fa80e07fe09149a69",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/PROVENANCE.md",
+      "sha256": "cc7e9e4f1dc094b164b72dde9fe937eaff0de0a426ed7985ec13483cb20bc7f6",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/run.py",
+      "sha256": "f366df6112731ee25bacd6779f9c6e80378792d135ee45471b77d92209c0b442",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/scripts/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/scripts/import_garmin_fit_activities.py",
+      "sha256": "6bce6a891738c3018af46dde31ac990495a97ffcd1f7a7c5b3aceb3b430bb882",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/scripts/personal_training_report.py",
+      "sha256": "499b310bca7489aca33aea0187c40e342f23f076d3cf6607b30edf63c1eba257",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/scripts/test_activity_analytics.py",
+      "sha256": "6e5333f95bbc8e33008447ebd8cf921f4baf18a08df72a47aa8f195844844591",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/scripts/test_activity_history.py",
+      "sha256": "286f29d3944a2c0830e1bfaf03401feeb5a71049792eb9fe35409c8494965cfd",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/scripts/test_activity_linkage.py",
+      "sha256": "8cc26fc8503bed59fc4f44f25c8552d172ef1d5ad113d5588c9c844098a6529c",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/scripts/test_garmin_fit.py",
+      "sha256": "2c1c94c6ab5dec69fb372e94fe045fccb7d9a00d56ff889d1e59e9e103c4c085",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/scripts/test_garmin_fit_activity.py",
+      "sha256": "1da4058d692af2e31d846221d3bdfa8cc997a6d9db25fd40689820654dc575f7",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/scripts/test_garmin_fit_import.py",
+      "sha256": "15306d58c4966e047bf26a50f2de6fd49dd94f560e2fc4e18a19fca09b5ab8c4",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/scripts/test_personal_training_report.py",
+      "sha256": "9f5bb843927548789e73d9a9daca478570cacb0d490cd120b5e9302c684df469",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/scripts/test_runner.py",
+      "sha256": "c6190e87fbd52da723f85f914b3c25a960c4bfe5c2d09be5829b5e5014c0e913",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/scripts/test_training_load.py",
+      "sha256": "7dc1dc48dab98a2ab3441bf76fb99c064e6f983ba8afedcbc4d4417986183288",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/scripts/test_training_load_configuration.py",
+      "sha256": "61f2eb912a9b61b990f7bd04ab85985f118e773ab958f6df5466631ffc70e87f",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/src/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/src/analytics/__init__.py",
+      "sha256": "77f758f5f5e57e4f4b536e590c7ef95cbc51bb5e4a07290e40f46128c5dd008f",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/src/analytics/service.py",
+      "sha256": "cb5be9ae170d118d4b9f080ab3febfcf8cf50e2335b03ec344423716f0434fd9",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/src/history/__init__.py",
+      "sha256": "4993aab1c70d5024533ec49dae4177ec3b334a52ef4d017dda1cb5321450613e",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/src/history/service.py",
+      "sha256": "2311f5070d28d1297d1a1bb7cc0d4608e932ea761e59d99edaa51d01c73d77f8",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/src/ingestion/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/src/ingestion/activity.py",
+      "sha256": "6a42099c10c617b1ee0625f29bb4c22e9fe1958e4458bc783940d6b0392ba563",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/src/ingestion/activity_storage.py",
+      "sha256": "676ed8bc3b068941310e0fdae6e2727e8fa6b05a23ab7746e66d1feabe7b2187",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/src/ingestion/garmin_fit.py",
+      "sha256": "fc218e8f8833a247f07c85d7b32fb0698ccb91b28eb0ba4a8546c8a09ff1d735",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/src/ingestion/garmin_fit_activity.py",
+      "sha256": "07c21859b74c05acf7b7d4ce7f2cdc95f81f09c874047d44067171e8e01414c4",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/src/ingestion/garmin_fit_import.py",
+      "sha256": "33e4897a96577f9ca54dec38734ed3b6d4e8b47571eca17d4c067e358058ad82",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/src/ingestion/garmin_summary.py",
+      "sha256": "37292cef0165433a08c018a55ac5e144a5df86584663b8bef259dd9c171ebea7",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/src/linkage/__init__.py",
+      "sha256": "008467e3043240031c27f3ac857c65dd29d2bc4c0bf52391dc355571896aadca",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/src/linkage/activity.py",
+      "sha256": "4f6f322a3ad56faa3c761934c24271141154c821b2da45a0d5e4fa2c401522ad",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/src/models/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/src/models/activity.py",
+      "sha256": "e034cebb64001f6728695f595d89f7e04ec30d04de7fd780b8fa418d9a251624",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/src/models/provenance.py",
+      "sha256": "3d4e4c60a561bbdb51b79b8c82b2ca5ca93752fc867be7fdc295523a4363d451",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/src/projection/__init__.py",
+      "sha256": "7238bbc11bf5439a99a959d2b8c575c784f96e160c8c17f90c8c042f38511c5e",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/src/projection/activity.py",
+      "sha256": "c577ce95c6c3c7c8c70cbfdf30f71e0f3de009ce4c21fa5280566380daeb7d93",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/src/reports/__init__.py",
+      "sha256": "0bdbf5bef37b054019dfd10bc27cb03239b4eb9795bf510254cbeb957ec33da1",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/src/reports/rendering.py",
+      "sha256": "3e15fe334af2ce4fc778e1515be3d92a8530b786c7d1e214ffbde86931d858e9",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/src/reports/service.py",
+      "sha256": "6fd2046e74e5aec25ddae0e6375ef0fdd700a33d21286b7ad064e23e650f7fe7",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/src/training_load/__init__.py",
+      "sha256": "da3c34a377c13d4a9153166ef7f9a97c33d0811636b52cd976cd91f17ff2a0b4",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/src/training_load/configuration.py",
+      "sha256": "2df6ed471004b70a0f88a35d696bb5d031f421abb5a9d6d1ea64da24e78dce77",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/src/training_load/service.py",
+      "sha256": "ee488b77ef9419923c2486185734440d08dbdcaff981c8b6deda424d1fa187c5",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/src/utils/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/runtime/src/utils/checksums.py",
+      "sha256": "cefcfe768a4a680049001ebff97febcac42655036a18ab538492e41b2430bd42",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/coaching/templates/athlete-profile.blank.md",
+      "sha256": "9c9ad13d0339e8cae78e2dde690514cdc409fe5e39a8745fca7f3fedcb022cf7",
+      "pack": "coaching"
+    },
+    {
+      "path": "packs/knowledge/README.md",
+      "sha256": "4e6d110c39a4b920f834c364efe42668b19c30b51889dea1794fd5e2b665abed",
+      "pack": "knowledge"
+    },
+    {
+      "path": "packs/knowledge/pack.json",
+      "sha256": "9ac492d81a4d9303b11a291d90633ec15f51b2c765b82593241417fce00d053e",
+      "pack": "knowledge"
+    },
+    {
+      "path": "packs/knowledge/roles/knowledge-curator.md",
+      "sha256": "5ff942d6319d219681c4e26e74dd4b7f51aad71ea60d4c9e3954190f9c88012f",
+      "pack": "knowledge"
+    },
+    {
+      "path": "packs/media/.gitignore",
+      "sha256": "44a86f55334d4818b2c7377d9cd0f13dea58d517821bfe8c26853874aaa97d2d",
+      "pack": "media"
+    },
+    {
+      "path": "packs/media/README.md",
+      "sha256": "0980a838048cb541ae85059eeedc346db5f39c4814307bdaa96a9fd0eccbee75",
+      "pack": "media"
+    },
+    {
+      "path": "packs/media/media_lab/__init__.py",
+      "sha256": "92dd4fc83cab4642d841e89f084a3cea44e4898a543fab00da8145c9d48c1df0",
+      "pack": "media"
+    },
+    {
+      "path": "packs/media/media_lab/__main__.py",
+      "sha256": "a7eae88e4276625caa34287c0552dfd3fed4331b21a8696939a09d1fde2a1916",
+      "pack": "media"
+    },
+    {
+      "path": "packs/media/media_lab/catalogue.py",
+      "sha256": "0a8265fa8dc67b22bb563288d6c7ae7f839547c4c834e372ee365c26e0f6bea7",
+      "pack": "media"
+    },
+    {
+      "path": "packs/media/media_lab/errors.py",
+      "sha256": "0c6c8228a021431109c22c4a64425457a896fefd8c0e29ca804e675fec408b63",
+      "pack": "media"
+    },
+    {
+      "path": "packs/media/media_lab/identity.py",
+      "sha256": "58f5981900c658e772c78cef8c9313b730657a318e3c05e6acb1f32a8d78e38b",
+      "pack": "media"
+    },
+    {
+      "path": "packs/media/media_lab/ingest.py",
+      "sha256": "99b31286593d4c9908b71a8f5c3edbe2100120a1cac06c82922e3eff3a7e4180",
+      "pack": "media"
+    },
+    {
+      "path": "packs/media/media_lab/probe.py",
+      "sha256": "fc354cce43b03550487751e88a29908eda1a98b5a6abc968365e780a7f32fc13",
+      "pack": "media"
+    },
+    {
+      "path": "packs/media/media_lab/publication.py",
+      "sha256": "4da26a2c284833ff9f57b30c5ccf29dbda560648df3689673c5460b61ca98732",
+      "pack": "media"
+    },
+    {
+      "path": "packs/media/media_lab/render.py",
+      "sha256": "ec11004d263cbc55dc423350759c3f49a6d401964ea36c174ed8b2eea77c98d0",
+      "pack": "media"
+    },
+    {
+      "path": "packs/media/media_lab/render_job.py",
+      "sha256": "5abfb711b938da8ed70b5e926c93991da360d692937786a2cf64908d8df55bf2",
+      "pack": "media"
+    },
+    {
+      "path": "packs/media/pack.json",
+      "sha256": "79113c941cfdd8b6e5c021c8c3c51f5e8f67652da8fa1afebf383b6e4f8c5b8e",
+      "pack": "media"
+    },
+    {
+      "path": "packs/media/roles/media-lab.md",
+      "sha256": "11d254c6cd80d225875540fba94ba2c3fdfb3e495cd6d83ac81fe71365d5fc8a",
+      "pack": "media"
+    },
+    {
+      "path": "packs/media/tests/integration_support.py",
+      "sha256": "430e80e6273ee46363b83b01741448c36a175ad609d70829b6d856dfb4d3e5bf",
+      "pack": "media"
+    },
+    {
+      "path": "packs/media/tests/run_required.py",
+      "sha256": "13ebbaddd5d69a024d6573808f0b7e523270afef51b003028621f74ab6db08ca",
+      "pack": "media"
+    },
+    {
+      "path": "packs/media/tests/test_catalogue.py",
+      "sha256": "baa3bba0c74bc813594a53f214834874ad3506d93b01f928c119b8a8b516e7a5",
+      "pack": "media"
+    },
+    {
+      "path": "packs/media/tests/test_input_contract.py",
+      "sha256": "0ec14a1a9bf2d5e8d6d1d150245cf717fa84fdcd3bf593a6a11ebef49450124c",
+      "pack": "media"
+    },
+    {
+      "path": "packs/media/tests/test_integration.py",
+      "sha256": "bc7b3ef46e918e0ecc71994a8ca1e079fd2f286416b12e600705d6edc5486251",
+      "pack": "media"
+    },
+    {
+      "path": "packs/media/tests/test_integration_gate.py",
+      "sha256": "ae9d427b07754e2092a2039c4058bb77d73090b6d1283806be456f1659215abd",
+      "pack": "media"
+    },
+    {
+      "path": "packs/media/tests/test_multi_render.py",
+      "sha256": "a28a3b3a18b23031250b1b7fda03377f3779171954c94177234b958db5a3fd30",
+      "pack": "media"
+    },
+    {
+      "path": "packs/media/tests/test_publication.py",
+      "sha256": "ce31bff3e441d19cf182a2545cdf0ddfbd71eb5763e0c4fa04a136a73934e0d5",
+      "pack": "media"
+    },
+    {
+      "path": "packs/media/tests/test_render.py",
+      "sha256": "5a29ec52a8906fa0d2854db30711a29e8978352a74a3fb9c9350821e2876543f",
+      "pack": "media"
+    },
+    {
+      "path": "packs/media/tests/test_render_job.py",
+      "sha256": "d49a4acff616396c17ea9dea2a42df7a5f8e7f72fda7f4e7e48fd9a9686f1b37",
+      "pack": "media"
+    },
+    {
+      "path": "packs/research/.gitignore",
+      "sha256": "d56bb6c1fc5d8ee4bdbe797514ff96286edc4a934b611a014ddcae0075b0ae27",
+      "pack": "research"
+    },
+    {
+      "path": "packs/research/README.md",
+      "sha256": "10449a7721346dd3f88b8a6aa25ce8be7dd141bbee304fc264c9923f8a37ff3d",
+      "pack": "research"
+    },
+    {
+      "path": "packs/research/checks/behavior-cases.json",
+      "sha256": "2071424bd516daa2e931b8b5f77c0e2d4e40833a821861753e6099025b0fe61b",
+      "pack": "research"
+    },
+    {
+      "path": "packs/research/checks/behavior-oracle.json",
+      "sha256": "ffd71bf702b423606cb8caf3d4416facebb2facb99b0a9f67881a86592960f49",
+      "pack": "research"
+    },
+    {
+      "path": "packs/research/checks/evaluate_behavior.py",
+      "sha256": "e3883e805666ea3a9bd8a5dee599ac6e031d329515f8e550009f3c8768ce6ebf",
+      "pack": "research"
+    },
+    {
+      "path": "packs/research/checks/test_record_update.py",
+      "sha256": "2e8d339a40dafab4ddbd021cb89c297a468b4a2e167e0916c23fce8cb813fef4",
+      "pack": "research"
+    },
+    {
+      "path": "packs/research/pack.json",
+      "sha256": "b3a290b0e5dae13c2ad4acf0b0cdfd8d5a29fe5521c1477e6b11f995b092af0f",
+      "pack": "research"
+    },
+    {
+      "path": "packs/research/roles/search-crawler.md",
+      "sha256": "bb6e033d0629b27d78d205501882c7ad992eff71321f83bf79807661dfa89eb4",
+      "pack": "research"
+    },
+    {
+      "path": "packs/research/tools/record_update.py",
+      "sha256": "7277aa869c2c266caf1dacd6a38a5629233fe8fd63e10438a6e6ade1d3d72c4e",
+      "pack": "research"
+    },
+    {
+      "path": "scripts/Install-Orc.ps1",
+      "sha256": "fdd19d2afc3034d2a5bc5e8ca484af0d516c702a3adaabfb9c5cc93ef6b119e2",
+      "pack": "core"
+    },
+    {
+      "path": "scripts/Test-Orc.ps1",
+      "sha256": "1f811c103a6f63907cee6d6572d5fd52e9191fa2e6093e665fc4791719c04387",
+      "pack": "core"
+    },
+    {
+      "path": "scripts/Uninstall-Orc.ps1",
+      "sha256": "3c546019c7c0a79b80eaae9367aeb7c4eab394f2eb51f21ac8b60fd7d00fe570",
+      "pack": "core"
+    },
+    {
+      "path": "scripts/build_release.py",
+      "sha256": "dad34b27e86eb3ec99d092af936dfcf9b4a1fc013c61a8413cef0e5eb37dea3b",
+      "pack": "core"
+    },
+    {
+      "path": "scripts/check_handoff.py",
+      "sha256": "572ff493aa6b6c2a66f1ed10c5f86c08f1a6cb10716636e9a99ee8dbf306330e",
+      "pack": "core"
+    },
+    {
+      "path": "scripts/generate_adapters.py",
+      "sha256": "7b75924ee3efd5ed6a337c20d07fe5a160b6ddcf13b61de12fce0d17911abbcb",
+      "pack": "core"
+    },
+    {
+      "path": "templates/assignment.example.json",
+      "sha256": "d8cc70a7ebe5b3abb442cc80a14173fddeadcc9077cea94fbf004c00c316dcb7",
+      "pack": "core"
+    },
+    {
+      "path": "templates/result.example.json",
+      "sha256": "7806d23d83f231bff28c4f7dd259b8771e289a389c939db1f25625eb20afe2d0",
+      "pack": "core"
+    },
+    {
+      "path": "tests/test_handoff.py",
+      "sha256": "3551387b5eeca584d94675d39ca37de0b11064d5a94a1b65aa3c0a39afee8743",
+      "pack": "core"
+    },
+    {
+      "path": "tests/test_installer.ps1",
+      "sha256": "74781eaefcdad19ad35b65a126c5a33371cb4565dcbdc85f67b8d14ad6636910",
+      "pack": "core"
+    },
+    {
+      "path": "tests/test_knowledge.py",
+      "sha256": "9af637935db0b1c8931aca2e28cc7e1c7a8c3ceb24f527e55e682e581c7b2063",
+      "pack": "knowledge"
+    }
+  ]
+}

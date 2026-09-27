@@ -1,0 +1,9 @@
+{
+  "id": "research",
+  "name": "Research",
+  "version": "0.1.0",
+  "roles": [
+    {"id": "search-crawler", "title": "Search Crawler", "instructions": "roles/search-crawler.md"}
+  ],
+  "requires": []
+}

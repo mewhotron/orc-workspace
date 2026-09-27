@@ -1,0 +1,23 @@
+# Owner state and derived/private content must remain outside source control.
+local/
+**/local/
+.env
+.env.*
+!.env.example
+*.local.*
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.log
+*.sqlite3-wal
+*.sqlite3-shm
+*.sqlite3-journal
+dist/
+*.zip
+# Source books and media are never release inputs.
+*.epub
+*.pdf
+*.mp4
+*.mov
+*.fit

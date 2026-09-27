@@ -1,0 +1,9 @@
+{
+  "assignment_id": "demo-001",
+  "attempt_id": "demo-001-01",
+  "worker": "example-worker",
+  "state": "in progress",
+  "allowed_artifacts": ["local/example-result.md"],
+  "allowed_effects": ["write:local/example-result.md"],
+  "required_checks": ["readback"]
+}
